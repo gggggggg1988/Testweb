@@ -21,7 +21,8 @@ public class DownloadServlet extends HttpServlet {
 
 //要下载的文件存放的路径
 
-        private String downloadfiledir="d:\\temp\\";
+//        private String downloadfiledir="d:\\temp\\";
+    private String downloadfiledir="\\Users\\cantian\\IdeaProjects\\Testweb\\out";
 
         public void doGet(HttpServletRequest request,HttpServletResponse response)throws ServletException,IOException{
 

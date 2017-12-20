@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="com.github.finagle:finch-jackson_2.10:0.10.0" type="repository">
+    <properties maven-id="com.github.finagle:finch-jackson_2.10:0.10.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/finagle/finch-jackson_2.10/0.10.0/finch-jackson_2.10-0.10.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/finagle/finch-core_2.10/0.10.0/finch-core_2.10-0.10.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/chuusai/shapeless_2.10/2.2.5/shapeless_2.10-2.2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalamacros/quasiquotes_2.10/2.0.0/quasiquotes_2.10-2.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/cats-core_2.10/0.4.1/cats-core_2.10-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/cats-macros_2.10/0.4.1/cats-macros_2.10-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/mpilquist/simulacrum_2.10/0.7.0/simulacrum_2.10-0.7.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/macro-compat_2.10/1.1.0/macro-compat_2.10-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/algebra_2.10/0.3.1/algebra_2.10-0.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/algebra-std_2.10/0.3.1/algebra-std_2.10-0.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/machinist_2.10/0.4.1/machinist_2.10-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/finagle-http_2.10/6.33.0/finagle-http_2.10-6.33.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/finagle-core_2.10/6.33.0/finagle-core_2.10-6.33.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-app_2.10/6.32.0/util-app_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-cache_2.10/6.32.0/util-cache_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-collection_2.10/6.32.0/util-collection_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-core_2.10/6.32.0/util-core_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-function_2.10/6.32.0/util-function_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-hashing_2.10/6.32.0/util-hashing_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-jvm_2.10/6.32.0/util-jvm_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-lint_2.10/6.32.0/util-lint_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-registry_2.10/6.32.0/util-registry_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-stats_2.10/6.32.0/util-stats_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.1.Final/netty-3.10.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-codec_2.10/6.32.0/util-codec_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/util-logging_2.10/6.32.0/util-logging_2.10-6.32.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.5.3/jackson-module-scala_2.10-2.5.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.5.3/jackson-annotations-2.5.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

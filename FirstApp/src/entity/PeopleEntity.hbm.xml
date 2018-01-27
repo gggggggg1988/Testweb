@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.PeopleEntity" table="people" schema="" catalog="hibernate">
+        <id name="id" column="id" type="java.lang.Integer"/>
+        <property name="name" column="name" type="java.lang.String"/>
+        <property name="age" column="age" type="java.lang.Integer"/>
+        <property name="gender" column="gender" type="java.lang.String"/>
+        <property name="place" column="place" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>

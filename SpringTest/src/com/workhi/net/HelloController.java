@@ -12,10 +12,19 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping(value = "/hello", method = RequestMethod.GET)
 public class HelloController {
 
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    @RequestMapping(value = "/welcome", method = RequestMethod.GET)
     public String printHello(ModelMap model) {
         model.addAttribute("msg", "Spring MVC Hello World");
         model.addAttribute("name", "yuntao");
         return "hello";
+    }
+
+    @RequestMapping("/index")
+    public String index() {
+        return "index";
+    }
+    @RequestMapping(value = "/fileUpload",method = RequestMethod.GET)
+    public String showUploadPage() {
+        return "file/file";
     }
 }

@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
+@RequestMapping(value="/hello")
 public class HelloController {
-    @RequestMapping(value="/hello",method = RequestMethod.GET)
+    @RequestMapping(value="/welcome")
     public String printWelcome(ModelMap model) {
         System.out.println("gogo-----");
         model.addAttribute("msg", "Spring 3 MVC Hello World");

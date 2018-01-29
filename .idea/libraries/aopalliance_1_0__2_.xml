@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SpringTest/web/WEB-INF/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringTest/web/WEB-INF/lib/commons-logging-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

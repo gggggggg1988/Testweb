@@ -13,7 +13,7 @@
 <body>
   <div align="center">
     <h1>上传文件</h1>
-     <form method="post" action="/hello/doUpload" enctype="multipart/form-data">
+     <form method="post" action="/hello/photoUpload" enctype="multipart/form-data">
         <input type="file" name="file"/>
        <input type="submit"/>
      </form>

@@ -1,5 +1,8 @@
 package test;
 
+
+import com.app.ds.hibernate.TCHibernateTemplate;
+import entity.PeopleDao;
 import entity.PeopleEntity;
 import org.hibernate.Hibernate;
 import org.hibernate.Session;
@@ -9,6 +12,10 @@ import org.hibernate.cfg.Configuration;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.orm.hibernate4.HibernateTemplate;
 
 import java.io.*;
 import java.sql.Blob;
@@ -22,6 +29,7 @@ public class PeopleTest {
     private Session session;
     private Transaction transaction;
     private Blob blob;
+
 
     @Before
     public void init(){
@@ -41,11 +49,25 @@ public class PeopleTest {
     public void testSavePeoples() throws Exception{
         PeopleEntity people   = new PeopleEntity();
         people.setId(0);
-        people.setAge(23);
+        people.setAge(43);
         people.setName("liwei");
-        people.setGender("��");
-        people.setPlace("�Ĵ�");
-        session.save(people);
+        people.setGender("man");
+        people.setPlace("chengdu");
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+        PeopleDao dao = (PeopleDao) context.getBean("peopleDao");
+        dao.save(people);
+
+
+//        TCHibernateTemplate template = new TCHibernateTemplate();
+//        PeopleEntity people   = new PeopleEntity();
+//        people.setId(0);
+//        people.setAge(23);
+//        people.setName("liwei");
+//        people.setGender("��");
+//        people.setPlace("�Ĵ�");
+//        template.save(people);
+
 //        File f = new File("path");//保存图片等二进制文件方法
 //        InputStream is = new FileInputStream(f);
 //        blob = Hibernate.getLobCreator(session).createBlob(is, is.available());

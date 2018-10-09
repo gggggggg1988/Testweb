@@ -26,7 +26,7 @@ public class MyServlet extends javax.servlet.http.HttpServlet {
 
         String data = request.getParameter("data");
         if ("json".equals(data)) {
-            List<Item> list = new ArrayList<>();
+            List<Item> list = new ArrayList<Item>();
             for (int i = 0; i < 10; i++) {
                 Item item = new Item();
                 item.date = new Date();
